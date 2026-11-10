@@ -1,14 +1,16 @@
-name: index
+name: publish
 
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "17 4 * * 1"
 
 jobs:
-  index:
+  publish:
     permissions:
       contents: write
-    uses: prytaneum/hestia/.github/workflows/plugin-index.yml@feature/plugins
+    uses: prytaneum/hestia/.github/workflows/plugin-publish.yml@feature/plugins
     with:
       hestia-ref: refs/heads/feature/plugins
     secrets:
