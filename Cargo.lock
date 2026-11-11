@@ -101,7 +101,7 @@ dependencies = [
 [[package]]
 name = "hestia-sdk"
 version = "1.0.0"
-source = "git+https://github.com/prytaneum/hestia?rev=refs%2Fheads%2Ffeature%2Fplugins#39cf9cdd212c1da83ba137b9f4a8029020723d60"
+source = "git+https://github.com/prytaneum/hestia?rev=refs%2Fheads%2Ffeature%2Fplugins#1297f15811d8d4b2a95bb659209866f3cace8c00"
 dependencies = [
  "proto",
  "serde",
@@ -189,7 +189,7 @@ dependencies = [
 [[package]]
 name = "proto"
 version = "1.0.0-beta.3"
-source = "git+https://github.com/prytaneum/hestia?rev=refs%2Fheads%2Ffeature%2Fplugins#39cf9cdd212c1da83ba137b9f4a8029020723d60"
+source = "git+https://github.com/prytaneum/hestia?rev=refs%2Fheads%2Ffeature%2Fplugins#1297f15811d8d4b2a95bb659209866f3cace8c00"
 dependencies = [
  "serde",
  "serde_json",
